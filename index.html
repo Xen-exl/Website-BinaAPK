@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BinaAPK by Xen | Tukar Website Jadi APK Secara Automatik</title>
+    <meta name="description"
+        content="Binaasikan idea anda dengan BinaAPK oleh Xen. Tukar sebarang website kepada fail Android APK terus dari GitHub secara automatik dan pantas tanpa Android Studio.">
+    <meta name="keywords"
+        content="BinaAPK, Xen, Xenbuild, Web to APK, Android APK Converter, GitHub to APK, Software Development, Malaysia">
+    <meta name="author" content="Xen">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xenbuild.vercel.app/">
+    <meta property="og:title" content="BinaAPK by Xen | Tukar Website Jadi APK Secara Automatik">
+    <meta property="og:description"
+        content="Tukar website anda kepada fail Android APK secara automatik dengan BinaAPK oleh Xen. Integrasi GitHub yang pantas dan mudah.">
+    <meta property="og:image" content="https://xenbuild.vercel.app/og-image.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://xenbuild.vercel.app/">
+    <meta property="twitter:title" content="BinaAPK by Xen | Tukar Website Jadi APK Secara Automatik">
+    <meta property="twitter:description"
+        content="Tukar website anda kepada fail Android APK secara automatik dengan BinaAPK oleh Xen. Integrasi GitHub yang pantas dan mudah.">
+    <meta property="twitter:image" content="https://xenbuild.vercel.app/og-image.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "BinaAPK",
+      "alternateName": "BinaAPK by Xen",
+      "operatingSystem": "Android",
+      "applicationCategory": "DeveloperApplication",
+      "url": "https://xenbuild.vercel.app/",
+      "author": {
+        "@type": "Person",
+        "name": "Xen"
+      },
+      "description": "Platform moden untuk menukar aplikasi web anda kepada fail Android APK terus dari GitHub repository secara automatik.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "MYR"
+      }
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-pattern"></div>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                Bina<span>APK</span>
+            </a>
+            <nav class="nav">
+                <a href="#how">Cara Berfungsi</a>
+                <a href="#preview">Build Preview</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <div class="header-cta">
+                <a href="https://xenbuild.vercel.app/" class="btn btn-primary">Mulakan Sekarang</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <span class="badge">V1.0 Sekarang Tersedia</span>
+                    <h1>Tukar Website Anda Jadi APK Dalam Beberapa Minit.</h1>
+                    <p>Tanpa Android Studio. Tanpa Kod Kompleks. Bina aplikasi Android terus dari repository GitHub anda
+                        dengan satu klik.</p>
+                    <div class="hero-actions">
+                        <a href="https://xenbuild.vercel.app/" class="btn btn-primary">Mulakan Sekarang</a>
+                        <a href="#how" class="btn btn-ghost">Tonton Demo</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="dashboard-mockup">
+                        <div class="mockup-header">
+                            <div class="dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="mockup-url">binaapk.com/dashboard</div>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="mockup-sidebar">
+                                <div class="sidebar-item active"></div>
+                                <div class="sidebar-item"></div>
+                                <div class="sidebar-item"></div>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="content-label">Repository</div>
+                                <div class="content-input">
+                                    <span>github.com/Xen-exl/my-app</span>
+                                    <i data-lucide="check-circle-2" class="icon-success"></i>
+                                </div>
+
+                                <div class="build-status">
+                                    <div class="status-info">
+                                        <span class="status-label">Building APK...</span>
+                                        <span class="status-percent">85%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="output-card">
+                                    <div class="output-info">
+                                        <i data-lucide="file-type-2" class="icon-apk"></i>
+                                        <div>
+                                            <div class="file-name">app-production-v1.apk</div>
+                                            <div class="file-size">12.4 MB</div>
+                                        </div>
+                                    </div>
+                                    <div class="output-action">
+                                        <i data-lucide="download"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="build-preview" id="preview">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Real-time Build Preview</h2>
+                    <p>Saksikan proses penukaran kod web kepada binari Android secara telus.</p>
+                </div>
+
+                <div class="preview-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-title">build-log.txt</div>
+                        <div class="terminal-status"><span class="pulse"></span> Live</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="line"><span>[19:25:01]</span> Fetching repository: Xen-exl/portfolio-web...</div>
+                        <div class="line"><span>[19:25:05]</span> Validating manifest and assets...</div>
+                        <div class="line"><span>[19:25:12]</span> Injecting GitHub Actions workflow...</div>
+                        <div class="line"><span>[19:25:20]</span> Running gradle build task (assembleRelease)...</div>
+                        <div class="line text-blue"><span>[19:26:45]</span> Generating APK signature...</div>
+                        <div class="line text-green"><span>[19:26:58]</span> Build Success! APK available in Releases.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-works" id="how">
+            <div class="container">
+                <div class="grid grid-3">
+                    <div class="card">
+                        <div class="card-icon"><i data-lucide="github"></i></div>
+                        <h3>Hubung GitHub</h3>
+                        <p>Pilih repository yang mengandungi fail HTML/CSS/JS anda. Kami menyokong repo private dan
+                            public.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i data-lucide="key"></i></div>
+                        <h3>Konfigurasi</h3>
+                        <p>Masukkan token akses dan tetapan aplikasi seperti nama dan icon tanpa sebarang kod.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i data-lucide="box"></i></div>
+                        <h3>Dapatkan APK</h3>
+                        <p>BinaAPK menguruskan semua proses teknikal. APK anda sedia untuk dimuat turun dalam masa 3
+                            minit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust">
+            <div class="container">
+                <div class="trust-content">
+                    <div class="trust-text">
+                        <h2>Keselamatan Tanpa Kompromi</h2>
+                        <p>Kami faham betapa pentingnya kod anda. Itulah sebabnya BinaAPK direka dengan prinsip
+                            keselamatan utama.</p>
+                        <ul class="trust-list">
+                            <li><i data-lucide="shield"></i> Proses berlaku dalam infrastruktur GitHub anda sendiri.
+                            </li>
+                            <li><i data-lucide="lock"></i> Kami tidak menyimpan kod sumber atau kunci peribadi anda.
+                            </li>
+                            <li><i data-lucide="eye-off"></i> Akses token hanya digunakan sementara untuk tujuan binaan.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="trust-visual">
+                        <div class="security-card">
+                            <i data-lucide="check-shield" class="main-shield"></i>
+                            <div class="shield-label">Protected by Industry Standard Encryption</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Soalan Lazim</h2>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h4>Adakah saya memerlukan pengalaman coding?</h4>
+                        <p>Tidak. Jika anda tahu cara memuat naik fail ke GitHub, anda boleh menggunakan BinaAPK.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Adakah token saya selamat?</h4>
+                        <p>Ya, token hanya digunakan untuk mengkonfigurasi GitHub Actions di repository anda. Kami
+                            mengesyorkan penggunaan fine-grained tokens.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Bolehkah saya publish ke Play Store?</h4>
+                        <p>Tentu sekali. APK yang dihasilkan adalah standard Android build yang boleh ditandatangani dan
+                            diupload ke Play Store.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Mula Bina Aplikasi Anda Hari Ini</h2>
+                    <p>Sertai ratusan developer yang telah menukar website mereka kepada aplikasi mudah alih.</p>
+                    <a href="https://xenbuild.vercel.app/" class="btn btn-primary btn-lg">Mulakan Secara Percuma</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="footer-logo">Bina<span>APK</span></div>
+                <p>&copy; 2026 BinaAPK. Created by Xen.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/Xen-exl/BinaAPK"><i data-lucide="github"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+
+</html>
