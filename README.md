@@ -6,7 +6,7 @@ BinaAPK adalah "landing page" moden dengan prestasi tinggi untuk alat yang direk
 
 ## 🔗 Pautan Pantas
 
-- **🌐 Demo Langsung**: [xenbuild.vercel.app](https://xenbuild.vercel.app/)
+- **🌐 Demo Langsung**: [xen-exl.github.io/Website-BinaAPK/](https://xen-exl.github.io/Website-BinaAPK/)
 - **💻 Produk Utama**: [Platform BinaAPK](https://xenbuild.vercel.app/)
 - **📦 Repositori**: [GitHub Repo](https://github.com/Xen-exl/BinaAPK)
 
